@@ -1,4 +1,5 @@
 #include<iostream>
+#include<string.h>
 using namespace std;
 
 string nombre,apellido_p,apellido_m,ciudad,curp;
@@ -15,7 +16,7 @@ int main()
     cout << "Ingrese el apellido materno: " << endl;
     cin >> apellido_m;
     cout << "Ingrese la calle: ";
-    cin.getline(calle,20);
+    getline(cin,calle);
     cout << "Ingrese el número del domicilio: " << endl;
     cin >> num;
     cout << "Ingrese la colonia: " << endl;
