@@ -35,6 +35,8 @@ int main()
     cout << endl << "NOMBRE \n" << apellido_p << "\n" << apellido_m << "\n" << nombre << "\n";
     cout << "DOMICILIO \n" << "C " << calle << " " << num << "\n";
     cout << "COL\n" << colonia << " " << cp << "\n";
-
+    
+    
+    //cin.get();
     return 0;
 }

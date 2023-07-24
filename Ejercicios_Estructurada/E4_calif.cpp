@@ -1,9 +1,10 @@
 #include <iostream>
-#include <cstring.h>
-#include <cmath.h>
+#include <cstring>
+#include <cmath>
 /*Calcular el promedio de un alumno apartir de ingresas 4 calificaciones, y la calificación final
 se obtiene multiplicando las calificaciones 1, 2, 3 y 4 
 por los porcentajes 30, 20, 10 y 40 %, respectivamente.*/
+using namespace std;
 int calif1,calif2,calif3,calif4,suma;
 float prom;
 string nom;
