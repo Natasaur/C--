@@ -1,35 +1,40 @@
 #include<iostream>
-#include<string.h>
+#include<string>
+#include<iostream>
 using namespace std;
 
 string nombre,apellido_p,apellido_m,ciudad,curp;
-char calle[20],colonia[20],deleg[20];
+char calle[100];
+char colonia[100];
+char deleg[100];
 int num,cp,año_reg;
 
 int main()
 {
-    //nombre="Natalia";
-    cout << "Ingrese el nombre: " << endl;
+    calle[100]={0};
+    colonia[100]={0};
+    deleg[100]={0};
+    cout << "Ingrese el nombre: ";
     cin >> nombre;
-    cout << "Ingrese el apellido paterno: " << endl;
+    cout << "Ingrese el apellido paterno: ";
     cin >> apellido_p;
-    cout << "Ingrese el apellido materno: " << endl;
+    cout << "Ingrese el apellido materno: ";
     cin >> apellido_m;
     cout << "Ingrese la calle: ";
-    getline(cin,calle);
-    cout << "Ingrese el número del domicilio: " << endl;
+    cin.getline(calle,100);
+    cout << "Ingrese el número del domicilio: ";
     cin >> num;
-    cout << "Ingrese la colonia: " << endl;
-    cin.getline(colonia,20);
-    cout << "Ingrese el código postal: " << endl;
+    cout << "Ingrese la colonia: ";
+    cin.getline(colonia,100);
+    cout << "Ingrese el código postal: ";
     cin >> cp;
-    cout << "Ingrese la delegación: " << endl;
-    cin.getline(deleg,20);
-    cout << "Ingrese la ciudad: " << endl;
+    cout << "Ingrese la delegación: ";
+    cin.getline(deleg,100);
+    cout << "Ingrese la ciudad: ";
     cin >> ciudad;
-    cout << "Ingrese el CURP: " << endl;
+    cout << "Ingrese el CURP: ";
     cin >> curp;
-    cout << "Ingrese el año de registro: " << endl;
+    cout << "Ingrese el año de registro: ";
     cin >> año_reg;
 
     cout << endl << "NOMBRE \n" << apellido_p << "\n" << apellido_m << "\n" << nombre << "\n";
