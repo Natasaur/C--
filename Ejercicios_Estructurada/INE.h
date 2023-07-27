@@ -1,14 +1,8 @@
 #include<iostream>
 #include<string>
+#include<stdlib.h>
 using namespace std;
-
-
-/*char calle[100];
-char colonia[100];
-char deleg[100];*/
-
-
-int main()
+void INE()
 {
     string nombre,apellido_p,apellido_m,curp;
     int num,cp,año_reg;
@@ -42,13 +36,8 @@ int main()
     cin >> curp;
     cout << "Ingrese el año de registro: ";
     cin >> año_reg;
-
-    cout << endl << "NOMBRE \n" << apellido_p << "\n" << apellido_m << "\n" << nombre << "\n";
+    cout << "\nNOMBRE \n" << apellido_p << "\n" << apellido_m << "\n" << nombre << "\n";
     cout << "DOMICILIO \n" << "C " << calle << " " << num << "\n";
     cout << "DELEGACION " << deleg << endl;
-    cout << "COL\n" << colonia << " " << cp << "\n";
-    
-    
-    //cin.get();
-    return 0;
+    cout << "COL " << colonia << " CP " << cp << "\n";
 }

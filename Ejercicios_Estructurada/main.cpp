@@ -1,4 +1,5 @@
 #include<cmath>
+#include"INE.h"
 #include"area_circulo.h"
 #include"calif.h"
 #include"cambio_moneda.h"
@@ -19,13 +20,13 @@
 #include"ywz.h"
 #include"zw.h"
 #include<iostream>
+#include<string>
+//#include<stdlib>
 using namespace std;
 int op;
-int main()
-{
+int main(){
     op=0;
-    do
-    {
+    do{
         cout << "/---Seleccione una opción---/\n";
         cout << "1. INE\n";
         cout << "2. Costo de un Terreno\n";
@@ -48,14 +49,12 @@ int main()
         cout << "19. Funciones Trigonométricas\n";
         cout << "20. Calcular Y, W y Z\n";
         cout << "21. Salir\n";
-        //break;
+
         cin >> op;
-        switch (op)
-        {
+        switch (op){
         case 1:
-        do
-        {
-            //INE();
+        do{
+            INE();
             op=0;
             cout << "¿Repetir Ejercicio?\n";
             cout << "1. Si 2. No\n";
@@ -63,8 +62,7 @@ int main()
         } while (op!=2);
             break;
         case 2:
-        do
-        {
+        do{
             costo_terreno();
             op=0;
             cout << "¿Repetir Ejercicio?\n";
@@ -73,8 +71,7 @@ int main()
         } while (op!=2);
             break;
         case 3:
-        do
-        {
+        do{
             transformar_horas();
             op=0;
             cout << "¿Repetir Ejercicio?\n";
@@ -83,8 +80,7 @@ int main()
         } while (op!=2);
             break;
         case 4:
-        do
-        {
+        do{
             calif();
             op=0;
             cout << "¿Repetir Ejercicio?\n";
@@ -93,8 +89,7 @@ int main()
         } while (op!=2);
             break;
         case 5:
-        do
-        {
+        do{
             dist_v_luz();
             op=0;
             cout << "¿Repetir Ejercicio?\n";
@@ -103,8 +98,7 @@ int main()
         } while (op!=2);
             break;
         case 6:
-        do
-        {
+        do{
             Y_ecuacion();
             op=0;
             cout << "¿Repetir Ejercicio?\n";
@@ -113,8 +107,7 @@ int main()
         } while (op!=2);
             break;
         case 7:
-        do
-        {
+        do{
             cent_a_fahren();
             op=0;
             cout << "¿Repetir Ejercicio?\n";
@@ -123,8 +116,7 @@ int main()
         } while (op!=2);
             break;
         case 8:
-        do
-        {
+        do{
             convertir_pies();
             op=0;
             cout << "¿Repetir Ejercicio?\n";
@@ -133,8 +125,7 @@ int main()
         } while (op!=2);
             break;
         case 9:
-        do
-        {
+        do{
             utilidad_impuesto();
             op=0;
             cout << "¿Repetir Ejercicio?\n";
@@ -143,8 +134,7 @@ int main()
         } while (op!=2);
             break;
         case 10:
-        do
-        {
+        do{
             area_circulo();
             op=0;
             cout << "¿Repetir Ejercicio?\n";
