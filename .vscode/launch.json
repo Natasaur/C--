@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/Mis cosas/Documentos/UTC/Análisis de Algoritmos/C++",
-      "program": "d:/Mis cosas/Documentos/UTC/Análisis de Algoritmos/C++/build/Debug/outDebug",
+      "cwd": "d:/Mis cosas/Documentos/UTC/Análisis de Algoritmos/C++/Ejercicios_Estructurada",
+      "program": "d:/Mis cosas/Documentos/UTC/Análisis de Algoritmos/C++/Ejercicios_Estructurada/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

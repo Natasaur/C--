@@ -9,6 +9,6 @@ void Y_ecuacion(){
     cout << "Ingrese el valor de X: \n";
     cin >> x;
     y=3*x^2+7*x-15;
-    cout << "El valor de Y es de " << y << ".";
+    cout << "El valor de Y es de " << y << ".\n";
     //return 0;
 }

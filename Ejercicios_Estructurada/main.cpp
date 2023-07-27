@@ -1,9 +1,23 @@
 #include<cmath>
+#include"area_circulo.h"
+#include"calif.h"
+#include"cambio_moneda.h"
+#include"cent_a_fahren.h"
+#include"convertidor_moneda.h"
+#include"convertir_pies.h"
 #include"costo_terreno.h"
 #include"dist_v_luz.h"
+#include"E19_fn_trigo.h"
+#include"esfera.h"
+#include"fn_hiper.h"
+#include"fn_trigo_v2.h"
+#include"fn_trigo.h"
 #include"transformar_horas.h"
-#include"calif.h"
+#include"utilidad_impuesto.h"
+#include"xywz.h"
 #include"Y_ecuacion.h"
+#include"ywz.h"
+#include"zw.h"
 #include<iostream>
 using namespace std;
 int op;
@@ -98,14 +112,153 @@ int main()
             cin >> op;
         } while (op!=2);
             break;
-        
-
-
-        
+        case 7:
+        do
+        {
+            cent_a_fahren();
+            op=0;
+            cout << "¿Repetir Ejercicio?\n";
+            cout << "1. Si 2. No\n";
+            cin >> op;
+        } while (op!=2);
+            break;
+        case 8:
+        do
+        {
+            convertir_pies();
+            op=0;
+            cout << "¿Repetir Ejercicio?\n";
+            cout << "1. Si 2. No\n";
+            cin >> op;
+        } while (op!=2);
+            break;
+        case 9:
+        do
+        {
+            utilidad_impuesto();
+            op=0;
+            cout << "¿Repetir Ejercicio?\n";
+            cout << "1. Si 2. No\n";
+            cin >> op;
+        } while (op!=2);
+            break;
+        case 10:
+        do
+        {
+            area_circulo();
+            op=0;
+            cout << "¿Repetir Ejercicio?\n";
+            cout << "1. Si 2. No\n";
+            cin >> op;
+        } while (op!=2);
+            break;
+        case 11:
+        do
+        {
+            cambio_moneda();
+            op=0;
+            cout << "¿Repetir Ejercicio?\n";
+            cout << "1. Si 2. No\n";
+            cin >> op;
+        } while (op!=2);
+            break;
+        case 12:
+        do
+        {
+            xywz();
+            op=0;
+            cout << "¿Repetir Ejercicio?\n";
+            cout << "1. Si 2. No\n";
+            cin >> op;
+        } while (op!=2);
+            break;
+        case 13:
+        do
+        {
+            esfera();
+            op=0;
+            cout << "¿Repetir Ejercicio?\n";
+            cout << "1. Si 2. No\n";
+            cin >> op;
+        } while (op!=2);
+            break;
+        case 14:
+        do
+        {
+            zw();
+            op=0;
+            cout << "¿Repetir Ejercicio?\n";
+            cout << "1. Si 2. No\n";
+            cin >> op;
+        } while (op!=2);
+            break;
+        case 15:
+        do
+        {
+            convertidor_moneda();
+            op=0;
+            cout << "¿Repetir Ejercicio?\n";
+            cout << "1. Si 2. No\n";
+            cin >> op;
+        } while (op!=2);
+            break;
+        case 16:
+        do
+        {
+            fn_hiper();
+            op=0;
+            cout << "¿Repetir Ejercicio?\n";
+            cout << "1. Si 2. No\n";
+            cin >> op;
+        } while (op!=2);
+            break;
+        case 17:
+        do
+        {
+            fn_trigo();
+            op=0;
+            cout << "¿Repetir Ejercicio?\n";
+            cout << "1. Si 2. No\n";
+            cin >> op;
+        } while (op!=2);
+            break;
+        case 18:
+        do
+        {
+            fn_trigo_v2();
+            op=0;
+            cout << "¿Repetir Ejercicio?\n";
+            cout << "1. Si 2. No\n";
+            cin >> op;
+        } while (op!=2);
+            break;
+        case 19:
+        do
+        {
+            E19_fn_trigo();
+            cout << "¿Repetir Ejercicio?\n";
+            cout << "1. Si 2. No\n";
+            cin >> op;
+            op=0;
+        } while (op!=2);
+            break;
+        case 20:
+        do
+        {
+            ywz();
+            cout << "¿Repetir Ejercicio?\n";
+            cout << "1. Si 2. No\n";
+            cin >> op;
+            op=0;
+        } while (op!=2);
+            break;        
         default:
+        if (op!=21)
+        {
+            cout << "Ingresa una de las opciones anteriores.\n";
+        }
             break;
         }
     } while (op!=21);
-    
     return 0;
 }

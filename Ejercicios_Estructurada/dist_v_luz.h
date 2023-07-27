@@ -9,6 +9,6 @@ void dist_v_luz(){
     cout << "Ingrese el tiempo transcurrido en segundos: \n";
     cin >> t;
     d=v/t;
-    cout << "La distancia recorrida en " << t << " segundos a la velocidad de la luz es de " << d << " metros.";
+    cout << "La distancia recorrida en " << t << " segundos a la velocidad de la luz es de " << d << " metros.\n";
     //return 0;
 }

@@ -24,7 +24,7 @@ void calif(){
     suma=calif1*0.3+calif2*0.2+calif3*0.1+calif4*0.4;
     prom=suma/4;
 
-    cout << "La calificación final del alumno " << nom << " es de " << prom << ".";
+    cout << "La calificación final del alumno " << nom << " es de " << prom << ".\n";
 
     //return 0;
 }
