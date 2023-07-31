@@ -58,6 +58,7 @@
   "C_Cpp.errorSquiggles": "disabled",
   "files.associations": {
     "cmath": "cpp",
-    "string": "c"
+    "string": "c",
+    "iostream": "cpp"
   }
 }

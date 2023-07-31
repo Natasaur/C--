@@ -1,0 +1,21 @@
+1. costo_terreno_10.h
+2. costo_terreno_17_25.h
+3. Y_condicional.h
+4. precio_articulo.h
+5. hielo_biguetas_armazones.h
+6. hielo_biguetas_armazones_v2.h
+7. alumno_acreditado.h
+8. triangulos.h
+9. trajes.h
+10. triangulos_congruentes.h
+11. trapecio.h 
+12. sueldo_tipo.h 
+13. terrenos_A_B.h 
+14. meses.h 
+15. hotel.h 
+16. convertidor_temperatura.h 
+17. g_o_r_fn_hiper.h 
+18. aspirante.h 
+19. autos.h 
+20. sist_ec_lin.h 
+21. 
