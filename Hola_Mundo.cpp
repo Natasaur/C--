@@ -8,7 +8,5 @@ int main(int argc, const char** argv) {
     int b; //Declaración local
     a=9;
     cout << "Hola Mundo! " << a;
-
-
     return 0;
 }
