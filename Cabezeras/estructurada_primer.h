@@ -244,7 +244,7 @@ void estructurada_primer(){
         } while (op!=2);
             break;        
         default:
-        if (op!=21)
+        if (op>=21)
         {
             cout << "Ingresa una de las opciones anteriores.\n";
         }

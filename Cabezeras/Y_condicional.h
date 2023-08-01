@@ -11,7 +11,7 @@ void Y_condicional(){
         cout << "Y = " << y << endl;
     }else if (x>=0)
     {
-        y=x^2+6;
+        y=pow(x,2)+6;
         cout << "Y = " << y << endl;
     }
     //return 0;

@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-int main(){
+void hotel(){
     int dias;
     float precio,total;
     cout << "Ingrese la cantidad de días a hospedarse: \n";
@@ -20,5 +20,5 @@ int main(){
         total=dias*precio;
         cout << "El costo total es de: $" << total << endl;
     }
-    return 0;
+    //return 0;
 }

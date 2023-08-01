@@ -18,4 +18,6 @@
 18. aspirante.h 
 19. autos.h 
 20. sist_ec_lin.h 
-21. 
+21. sueldo_tipo_v2.h 
+22. vocal_consonante.h 
+23. fn.trigo_switch.h 

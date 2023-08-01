@@ -7,7 +7,7 @@ void terrenos_A_B() {
     cout << "Ingrese el costo del Terreno A: \n";
     cin >> costo_a;
     cout << "Ingrese el valor de la base del Terreno B: \n";
-    cin << base;
+    cin >> base;
     cout << "Ingrese el valor de la altura del Terreno B: \n";
     cin >> altura;
     cout << "Ingrese el costo del Terreno B: \n";
