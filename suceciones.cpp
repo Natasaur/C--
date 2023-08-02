@@ -1,8 +1,20 @@
 #include<iostream>
 using namespace std;
 
-void sucesion_1(int n){
-    
+int sucesion_1(int n){
+    int i;
+    for (i = 1 ; i <= n; i++) {
+        if (i==1) {
+            cout << i << "! + ";
+        }else if (i==2) {
+            cout << i << "!/" << i+1 << "n^2 + ";            
+        }else if (i==n){
+            cout << 2*(i-1) << "!/" << i*2 << "n^2\n";            
+        }else{
+            cout << 2*(i-1) << "!/" << i*2 << "n^2 + ";
+        }
+    }
+    return 0;
 }
 
 int fibonacci(int n){
@@ -59,6 +71,17 @@ int main(){
                     cout << "Ingrese el número de iteraciones: \n";
                     cin >> n;
                     fibonacci(n);
+                    op=0;
+                    cout << "¿Desea repetir el ejercicio?\n" << "1. Si\n" << "2. No\n";
+                    cin >> op;
+                } while (op!=2);
+            break;
+            case 3:
+                do{
+                    n=0;
+                    cout << "Ingrese el número de iteraciones: \n";
+                    cin >> n;
+                    sucesion_1(n);
                     op=0;
                     cout << "¿Desea repetir el ejercicio?\n" << "1. Si\n" << "2. No\n";
                     cin >> op;
