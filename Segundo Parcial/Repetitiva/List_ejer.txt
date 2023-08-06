@@ -1,13 +1,13 @@
-Escribir "1. Factorial"
-2. Tablas de Multiplicar"
-Escribir "3. Serie de Fibonacci"
-Escribir "4. Sumatoria de 1/n"
-Escribir "5. Mayor y menor"
-Escribir "6. Triángulo de asteriscos"
-Escribir "7. Cadena de números pares"
-Escribir "8. Total, promedio, mayor y menor de n números"
-Escribir "9. Potencias"
-Escribir "10. Cuadrado de números impares del 1 al 15"
+1. factorial.h
+2. tablas_de_multiplicar.h
+3. fibonacci.h
+4. sumatoria_1_sobre_n.h
+5. mayor_menor.h
+6. triangulo_asteriscos.h
+7. pares.h
+8. promedio_mayor_y_menor.h
+9. potencias.h
+10. cuadrado_impares.h
 Escribir "11. Tabla de Fahrenheit a Celsius"
 Escribir "12. Tabla de Celsius a Fahrenheit"
 Escribir "13. Secante, Cosecante y Tangente"

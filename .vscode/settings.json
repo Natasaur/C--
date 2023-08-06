@@ -59,6 +59,7 @@
   "files.associations": {
     "cmath": "cpp",
     "string": "c",
-    "iostream": "cpp"
+    "iostream": "cpp",
+    "algorithm": "cpp"
   }
 }
