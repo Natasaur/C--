@@ -60,6 +60,7 @@
     "cmath": "cpp",
     "string": "c",
     "iostream": "cpp",
-    "algorithm": "cpp"
+    "algorithm": "cpp",
+    "ostream": "cpp"
   }
 }

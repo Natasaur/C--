@@ -1,6 +1,8 @@
 #include<iostream>
 #include"estructurada_primer.h"
 #include"comparativa.h"
+#include"estructurada.h"
+#include"repetitiva.h"
 int main() {
     int op;
     op=0;
@@ -42,10 +44,16 @@ int main() {
                     cin >> op;
                     switch (op){
                         case 1:
-                            
+                            estructurada();
                             break;
                         case 2:
                             comparativa();
+                            break;
+                        case 3:
+                            repetitiva();
+                            break;
+                        case 4:
+
                             break;
                         default:
                             break;

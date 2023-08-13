@@ -1,13 +1,12 @@
-Escribir "/-----Seleccione una opción-----/"
-Escribir "1. Ley de Newton"
-Escribir "2. Calcular W,Z,X o F"
-Escribir "3. Hielo Seco, Biguetas y Armazones"
-Escribir "4. Hielo Seco, Biguetas y Armazones con descuento adicional"
-Escribir "5. Sueldo de un empleado"
-Escribir "6. Meses (Estructura Selectiva)"
-Escribir "7. Convertidor de Temperatura"
+1. newton.h
+2. WZXF.h
+3. hielo_biguetas_armazones.h
+4. hielo_biguetas_armazones_v2.h
+5. sueldo_tipo.h
+6. meses.h
+7. FCKR.h
 Escribir "8. Ecuaciones Trigonométricas"
-Escribir "9. Automóviles"
-Escribir "10. Sueldo de tipos de empleados"
-Escribir "11. Convertidor de moneda"
-Escribir "12. Celsius a Fahrenheit"
+9. autos.h
+10. tipos_empleados.h
+11. moneda_select.h
+12. caf_select.h

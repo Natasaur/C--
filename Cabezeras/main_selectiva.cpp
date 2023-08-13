@@ -1,22 +1,30 @@
 #include<iostream>
-#include"fuerza_N.h"
-#include"velocidad_N.h"
-//#include"INE.h"
+
+
 using namespace std;
-void estructurada(){
+int main(){
     int op;
     do{
         op=0;
-        cout << "/----Seleccione un ejercicio----/\n";
-        cout << "1. Calcular la Fuerza de Newton\n";
-        cout << "2. Calcular la Velocidad de Newton\n";
-        cout << "3. Imprimir credencial INE\n";
-        cout << "4. Salir\n";
+        cout << "/-----Seleccione una opción-----/\n";
+        cout << "1. Ley de Newton"
+        cout << "2. Calcular W,Z,X o F"
+        cout << "3. Hielo Seco, Biguetas y Armazones"
+        cout << "4. Hielo Seco, Biguetas y Armazones con descuento adicional"
+        cout << "5. Sueldo de un empleado"
+        cout << "6. Meses (Estructura Selectiva)"
+        cout << "7. Convertidor de Temperatura"
+        cout << "8. Ecuaciones Trigonométricas"
+        cout << "9. Automóviles"
+        cout << "10. Sueldo de tipos de empleados"
+        cout << "11. Convertidor de moneda"
+        cout << "12. Celsius a Fahrenheit"
+        cout << "30. Salir"
         cin >> op;
         switch (op) {
         case 1:
             do{
-                fuerza_N();
+                
                 op=0;
                 cout << "¿Repetir Ejercicio?\n";
                 cout << "1. Si 2. No\n";
@@ -25,7 +33,7 @@ void estructurada(){
             break;
         case 2:
             do{
-                velocidad_N();
+                
                 op=0;
                 cout << "¿Repetir Ejercicio?\n";
                 cout << "1. Si 2. No\n";
@@ -34,7 +42,7 @@ void estructurada(){
             break;
         case 3:
             do{
-                INE();
+                
                 op=0;
                 cout << "¿Repetir Ejercicio?\n";
                 cout << "1. Si 2. No\n";
@@ -48,5 +56,5 @@ void estructurada(){
             break;
         }
     } while (op!=4);
-    //return 0;
+    return 0;
 }
