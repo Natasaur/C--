@@ -26,8 +26,9 @@ using namespace std;
 
 void estructurada_primer(){
     int op;
-    op=0;
     do{
+        op=0;
+        system("cls");
         cout << "/---Seleccione una opción---/\n";
         cout << "1. INE\n";
         cout << "2. Costo de un Terreno\n";
@@ -50,11 +51,11 @@ void estructurada_primer(){
         cout << "19. Funciones Trigonométricas\n";
         cout << "20. Calcular Y, W y Z\n";
         cout << "21. Salir\n";
-
         cin >> op;
         switch (op){
         case 1:
         do{
+            system("cls");
             INE();
             op=0;
             cout << "¿Repetir Ejercicio?\n";
@@ -64,6 +65,7 @@ void estructurada_primer(){
             break;
         case 2:
         do{
+            system("cls");
             costo_terreno();
             op=0;
             cout << "¿Repetir Ejercicio?\n";
@@ -73,6 +75,7 @@ void estructurada_primer(){
             break;
         case 3:
         do{
+            system("cls");
             transformar_horas();
             op=0;
             cout << "¿Repetir Ejercicio?\n";
@@ -82,6 +85,7 @@ void estructurada_primer(){
             break;
         case 4:
         do{
+            system("cls");
             calif();
             op=0;
             cout << "¿Repetir Ejercicio?\n";
@@ -91,6 +95,7 @@ void estructurada_primer(){
             break;
         case 5:
         do{
+            system("cls");
             dist_v_luz();
             op=0;
             cout << "¿Repetir Ejercicio?\n";
@@ -100,6 +105,7 @@ void estructurada_primer(){
             break;
         case 6:
         do{
+            system("cls");
             Y_ecuacion();
             op=0;
             cout << "¿Repetir Ejercicio?\n";
@@ -109,6 +115,7 @@ void estructurada_primer(){
             break;
         case 7:
         do{
+            system("cls");
             cent_a_fahren();
             op=0;
             cout << "¿Repetir Ejercicio?\n";
@@ -118,6 +125,7 @@ void estructurada_primer(){
             break;
         case 8:
         do{
+            system("cls");
             convertir_pies();
             op=0;
             cout << "¿Repetir Ejercicio?\n";
@@ -127,6 +135,7 @@ void estructurada_primer(){
             break;
         case 9:
         do{
+            system("cls");
             utilidad_impuesto();
             op=0;
             cout << "¿Repetir Ejercicio?\n";
@@ -136,6 +145,7 @@ void estructurada_primer(){
             break;
         case 10:
         do{
+            system("cls");
             area_circulo();
             op=0;
             cout << "¿Repetir Ejercicio?\n";
@@ -144,8 +154,8 @@ void estructurada_primer(){
         } while (op!=2);
             break;
         case 11:
-        do
-        {
+        do{
+            system("cls");
             cambio_moneda();
             op=0;
             cout << "¿Repetir Ejercicio?\n";
@@ -154,8 +164,8 @@ void estructurada_primer(){
         } while (op!=2);
             break;
         case 12:
-        do
-        {
+        do{
+            system("cls");
             xywz();
             op=0;
             cout << "¿Repetir Ejercicio?\n";
@@ -164,8 +174,8 @@ void estructurada_primer(){
         } while (op!=2);
             break;
         case 13:
-        do
-        {
+        do{
+            system("cls");
             esfera();
             op=0;
             cout << "¿Repetir Ejercicio?\n";
@@ -174,8 +184,8 @@ void estructurada_primer(){
         } while (op!=2);
             break;
         case 14:
-        do
-        {
+        do{
+            system("cls");
             zw();
             op=0;
             cout << "¿Repetir Ejercicio?\n";
@@ -184,8 +194,8 @@ void estructurada_primer(){
         } while (op!=2);
             break;
         case 15:
-        do
-        {
+        do{
+            system("cls");
             convertidor_moneda();
             op=0;
             cout << "¿Repetir Ejercicio?\n";
@@ -194,8 +204,8 @@ void estructurada_primer(){
         } while (op!=2);
             break;
         case 16:
-        do
-        {
+        do{
+            system("cls");
             fn_hiper();
             op=0;
             cout << "¿Repetir Ejercicio?\n";
@@ -204,8 +214,8 @@ void estructurada_primer(){
         } while (op!=2);
             break;
         case 17:
-        do
-        {
+        do{
+            system("cls");
             fn_trigo();
             op=0;
             cout << "¿Repetir Ejercicio?\n";
@@ -214,8 +224,8 @@ void estructurada_primer(){
         } while (op!=2);
             break;
         case 18:
-        do
-        {
+        do{
+            system("cls");
             fn_trigo_v2();
             op=0;
             cout << "¿Repetir Ejercicio?\n";
@@ -224,8 +234,8 @@ void estructurada_primer(){
         } while (op!=2);
             break;
         case 19:
-        do
-        {
+        do{
+            system("cls");
             E19_fn_trigo();
             cout << "¿Repetir Ejercicio?\n";
             cout << "1. Si 2. No\n";
@@ -234,8 +244,8 @@ void estructurada_primer(){
         } while (op!=2);
             break;
         case 20:
-        do
-        {
+        do{
+            system("cls");
             ywz();
             cout << "¿Repetir Ejercicio?\n";
             cout << "1. Si 2. No\n";
@@ -244,8 +254,8 @@ void estructurada_primer(){
         } while (op!=2);
             break;        
         default:
-        if (op>=21)
-        {
+        if (op>=21){
+            system("cls");
             cout << "Ingresa una de las opciones anteriores.\n";
         }
             break;

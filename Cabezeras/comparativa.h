@@ -25,8 +25,9 @@
 using namespace std;
 void comparativa(){
     int op;
-    op=0;
     do{
+        op=0;
+        system("cls");
         cout << "/----Seleccione un ejercicio----/\n";
         cout << "1. Costo de un terreno con 10 % de descuento\n";
         cout << "2. Costo de un terreno con 17 o 25 % de descuento\n";
@@ -56,6 +57,7 @@ void comparativa(){
         switch (op) {
         case 1:
             do{
+                system("cls");
                 costo_terreno_10();
                 op=0;
                 cout << "¿Repetir Ejercicio?\n";
@@ -65,6 +67,7 @@ void comparativa(){
             break;
         case 2:
             do{
+                system("cls");
                 costo_terreno_17_25();
                 op=0;
                 cout << "¿Repetir Ejercicio?\n";
@@ -74,6 +77,7 @@ void comparativa(){
             break;
         case 3:
             do{
+                system("cls");
                 Y_condicional();
                 op=0;
                 cout << "¿Repetir Ejercicio?\n";
@@ -83,6 +87,7 @@ void comparativa(){
             break;
         case 4:
             do{
+                system("cls");
                 precio_articulo();
                 op=0;
                 cout << "¿Repetir Ejercicio?\n";
@@ -92,6 +97,7 @@ void comparativa(){
             break;
         case 5:
             do{
+                system("cls");
                 hielo_biguetas_armazones();
                 op=0;
                 cout << "¿Repetir Ejercicio?\n";
@@ -101,6 +107,7 @@ void comparativa(){
             break;
         case 6:
             do{
+                system("cls");
                 hielo_biguetas_armazones_v2();
                 op=0;
                 cout << "¿Repetir Ejercicio?\n";
@@ -110,6 +117,7 @@ void comparativa(){
             break;
         case 7:
             do{
+                system("cls");
                 alumno_acreditado();
                 op=0;
                 cout << "¿Repetir Ejercicio?\n";
@@ -119,6 +127,7 @@ void comparativa(){
             break;
         case 8:
             do{
+                system("cls");
                 triangulos();
                 op=0;
                 cout << "¿Repetir Ejercicio?\n";
@@ -128,6 +137,7 @@ void comparativa(){
             break;
         case 9:
             do{
+                system("cls");
                 trajes();
                 op=0;
                 cout << "¿Repetir Ejercicio?\n";
@@ -137,6 +147,7 @@ void comparativa(){
             break;
         case 10:
             do{
+                system("cls");
                 triangulos_congruentes();
                 op=0;
                 cout << "¿Repetir Ejercicio?\n";
@@ -146,6 +157,7 @@ void comparativa(){
             break;
         case 11:
             do{
+                system("cls");
                 trapecio();
                 op=0;
                 cout << "¿Repetir Ejercicio?\n";
@@ -155,6 +167,7 @@ void comparativa(){
             break;
         case 12:
             do{
+                system("cls");
                 sueldo_tipo();
                 op=0;
                 cout << "¿Repetir Ejercicio?\n";
@@ -164,6 +177,7 @@ void comparativa(){
             break;
         case 13:
             do{
+                system("cls");
                 terrenos_A_B();
                 op=0;
                 cout << "¿Repetir Ejercicio?\n";
@@ -173,6 +187,7 @@ void comparativa(){
             break;
         case 14:
             do{
+                system("cls");
                 meses();
                 op=0;
                 cout << "¿Repetir Ejercicio?\n";
@@ -182,6 +197,7 @@ void comparativa(){
             break;
         case 15:
             do{
+                system("cls");
                 hotel();
                 op=0;
                 cout << "¿Repetir Ejercicio?\n";
@@ -191,6 +207,7 @@ void comparativa(){
             break;
         case 16:
             do{
+                system("cls");
                 convertidor_temperatura();
                 op=0;
                 cout << "¿Repetir Ejercicio?\n";
@@ -200,6 +217,7 @@ void comparativa(){
             break;
         case 17:
             do{
+                system("cls");
                 g_o_r_fn_hiper();
                 op=0;
                 cout << "¿Repetir Ejercicio?\n";
@@ -209,6 +227,7 @@ void comparativa(){
             break;
         case 18:
             do{
+                system("cls");
                 aspirante();
                 op=0;
                 cout << "¿Repetir Ejercicio?\n";
@@ -218,6 +237,7 @@ void comparativa(){
             break;
         case 19:
             do{
+                system("cls");
                 autos();
                 op=0;
                 cout << "¿Repetir Ejercicio?\n";
@@ -227,6 +247,7 @@ void comparativa(){
             break;
         case 20:
             do{
+                system("cls");
                 sist_ec_lin();
                 op=0;
                 cout << "¿Repetir Ejercicio?\n";
@@ -236,6 +257,7 @@ void comparativa(){
             break;
         case 21:
             do{
+                system("cls");
                 sueldo_tipo_v2();
                 op=0;
                 cout << "¿Repetir Ejercicio?\n";
@@ -245,6 +267,7 @@ void comparativa(){
             break;
         case 22:
             do{
+                system("cls");
                 vocal_consonante();
                 op=0;
                 cout << "¿Repetir Ejercicio?\n";
@@ -254,6 +277,7 @@ void comparativa(){
             break;
         case 23:
             do{
+                system("cls");
                 fn_trigo_select();
                 op=0;
                 cout << "¿Repetir Ejercicio?\n";
@@ -263,7 +287,8 @@ void comparativa(){
             break;    
         default:
         if (op>24){
-                cout << "Ingresa una de las opciones anteriores.\n";
+            system("cls");
+            cout << "Ingresa una de las opciones anteriores.\n";
             }
             break;
         }

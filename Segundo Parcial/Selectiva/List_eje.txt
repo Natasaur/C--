@@ -5,7 +5,7 @@
 5. sueldo_tipo.h
 6. meses.h
 7. FCKR.h
-Escribir "8. Ecuaciones Trigonométricas"
+8. g_o_r_fn_hiper();
 9. autos.h
 10. tipos_empleados.h
 11. moneda_select.h

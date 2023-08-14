@@ -7,6 +7,7 @@ void estructurada(){
     int op;
     do{
         op=0;
+        system("cls");
         cout << "/----Seleccione un ejercicio----/\n";
         cout << "1. Calcular la Fuerza de Newton\n";
         cout << "2. Calcular la Velocidad de Newton\n";
@@ -16,6 +17,7 @@ void estructurada(){
         switch (op) {
         case 1:
             do{
+                system("cls");
                 fuerza_N();
                 op=0;
                 cout << "¿Repetir Ejercicio?\n";
@@ -25,6 +27,7 @@ void estructurada(){
             break;
         case 2:
             do{
+                system("cls");
                 velocidad_N();
                 op=0;
                 cout << "¿Repetir Ejercicio?\n";
@@ -34,6 +37,7 @@ void estructurada(){
             break;
         case 3:
             do{
+                system("cls");
                 INE();
                 op=0;
                 cout << "¿Repetir Ejercicio?\n";
@@ -43,7 +47,8 @@ void estructurada(){
             break; 
         default:
         if (op>4){
-                cout << "Ingresa una de las opciones anteriores.\n";
+            system("cls");
+            cout << "Ingresa una de las opciones anteriores.\n";
             }
             break;
         }

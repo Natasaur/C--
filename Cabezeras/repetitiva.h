@@ -34,6 +34,7 @@ void repetitiva(){
     int op;
     do{
         op=0;
+        system("cls");
         cout << "/-----Seleccione una opción-----/\n";
         cout << "1. Factorial\n";
         cout << "2. Tablas de Multiplicar\n";
@@ -72,6 +73,7 @@ void repetitiva(){
         switch (op) {
         case 1:
             do{
+                system("cls");
                 int top;
                 top=0;
                 cout << "Ingrese el número a calcular el factorial: \n";
@@ -85,6 +87,7 @@ void repetitiva(){
             break;
         case 2:
             do{
+                system("cls");
                 tablas_de_multiplicar();
                 op=0;
                 cout << "¿Repetir Ejercicio?\n";
@@ -94,6 +97,7 @@ void repetitiva(){
             break;
         case 3:
             do{
+                system("cls");
                 fibonacci();
                 op=0;
                 cout << "¿Repetir Ejercicio?\n";
@@ -103,6 +107,7 @@ void repetitiva(){
             break;
         case 4:
             do{
+                system("cls");
                 sumatoria_1_sobre_n();
                 op=0;
                 cout << "¿Repetir Ejercicio?\n";
@@ -112,6 +117,7 @@ void repetitiva(){
             break; 
         case 5:
             do{
+                system("cls");
                 mayor_menor();
                 op=0;
                 cout << "¿Repetir Ejercicio?\n";
@@ -121,6 +127,7 @@ void repetitiva(){
             break; 
         case 6:
             do{
+                system("cls");
                 triangulo_asteriscos();
                 op=0;
                 cout << "¿Repetir Ejercicio?\n";
@@ -130,6 +137,7 @@ void repetitiva(){
             break;
         case 7:
             do{
+                system("cls");
                 pares();
                 op=0;
                 cout << "¿Repetir Ejercicio?\n";
@@ -139,6 +147,7 @@ void repetitiva(){
             break; 
         case 8:
             do{
+                system("cls");
                 promedio_mayor_y_menor();
                 op=0;
                 cout << "¿Repetir Ejercicio?\n";
@@ -148,6 +157,7 @@ void repetitiva(){
             break; 
         case 9:
             do{
+                system("cls");
                 potencias();
                 op=0;
                 cout << "¿Repetir Ejercicio?\n";
@@ -157,6 +167,7 @@ void repetitiva(){
             break;
         case 10:
             do{
+                system("cls");
                 cuadrado_impares();
                 op=0;
                 cout << "¿Repetir Ejercicio?\n";
@@ -166,6 +177,7 @@ void repetitiva(){
             break; 
         case 11:
             do{
+                system("cls");
                 tabla_fac();
                 op=0;
                 cout << "¿Repetir Ejercicio?\n";
@@ -175,6 +187,7 @@ void repetitiva(){
             break; 
         case 12:
             do{
+                system("cls");
                 tabla_caf();
                 op=0;
                 cout << "¿Repetir Ejercicio?\n";
@@ -184,6 +197,7 @@ void repetitiva(){
             break;
         case 13:
             do{
+                system("cls");
                 fn_trigo_v2();
                 op=0;
                 cout << "¿Repetir Ejercicio?\n";
@@ -193,6 +207,7 @@ void repetitiva(){
             break; 
         case 14:
             do{
+                system("cls");
                 raices();
                 op=0;
                 cout << "¿Repetir Ejercicio?\n";
@@ -202,6 +217,7 @@ void repetitiva(){
             break; 
         case 15:
             do{
+                system("cls");
                 liga_fut();
                 op=0;
                 cout << "¿Repetir Ejercicio?\n";
@@ -211,6 +227,7 @@ void repetitiva(){
             break;
         case 16:
             do{
+                system("cls");
                 amortizacion();
                 op=0;
                 cout << "¿Repetir Ejercicio?\n";
@@ -220,6 +237,7 @@ void repetitiva(){
             break; 
         case 17:
             do{
+                system("cls");
                 ahorro_10();
                 op=0;
                 cout << "¿Repetir Ejercicio?\n";
@@ -229,6 +247,7 @@ void repetitiva(){
             break;
         case 18:
             do{
+                system("cls");
                 ahorro_15();
                 op=0;
                 cout << "¿Repetir Ejercicio?\n";
@@ -238,6 +257,7 @@ void repetitiva(){
             break;
         case 19:
             do{
+                system("cls");
                 renta_telefono();
                 op=0;
                 cout << "¿Repetir Ejercicio?\n";
@@ -247,6 +267,7 @@ void repetitiva(){
             break; 
         case 20:
             do{
+                system("cls");
                 pob_est();
                 op=0;
                 cout << "¿Repetir Ejercicio?\n";
@@ -256,6 +277,7 @@ void repetitiva(){
             break; 
         case 21:
             do{
+                system("cls");
                 fibonacci();
                 op=0;
                 cout << "¿Repetir Ejercicio?\n";
@@ -265,6 +287,7 @@ void repetitiva(){
             break;
         case 22:
             do{
+                system("cls");
                 metros_1an();
                 op=0;
                 cout << "¿Repetir Ejercicio?\n";
@@ -274,6 +297,7 @@ void repetitiva(){
             break; 
         case 23:
             do{
+                system("cls");
                 metros_nam();
                 op=0;
                 cout << "¿Repetir Ejercicio?\n";
@@ -283,6 +307,7 @@ void repetitiva(){
             break; 
         case 24:
             do{
+                system("cls");
                 pies_nam();
                 op=0;
                 cout << "¿Repetir Ejercicio?\n";
@@ -292,6 +317,7 @@ void repetitiva(){
             break;
         case 25:
             do{
+                system("cls");
                 reporte_12_esc();
                 op=0;
                 cout << "¿Repetir Ejercicio?\n";
@@ -301,6 +327,7 @@ void repetitiva(){
             break; 
         case 26:
             do{
+                system("cls");
                 reporte_n_esc();
                 op=0;
                 cout << "¿Repetir Ejercicio?\n";
@@ -310,6 +337,7 @@ void repetitiva(){
             break; 
         case 27:
             do{
+                system("cls");
                 costo_de_produccion();
                 op=0;
                 cout << "¿Repetir Ejercicio?\n";
@@ -319,6 +347,7 @@ void repetitiva(){
             break;
         case 28:
             do{
+                system("cls");
                 costo_produccion_8();
                 op=0;
                 cout << "¿Repetir Ejercicio?\n";
@@ -328,6 +357,7 @@ void repetitiva(){
             break; 
         case 29:
             do{
+                system("cls");
                 control_calidad();
                 op=0;
                 cout << "¿Repetir Ejercicio?\n";
@@ -337,6 +367,7 @@ void repetitiva(){
             break; 
         case 30:
             do{
+                system("cls");
                 fallas();
                 op=0;
                 cout << "¿Repetir Ejercicio?\n";
@@ -364,7 +395,8 @@ void repetitiva(){
             break;
         default:
         if (op>33){
-                cout << "Ingresa una de las opciones anteriores.\n";
+            system("cls");
+            cout << "Ingresa una de las opciones anteriores.\n";
             }
             break;
         }

@@ -4,7 +4,7 @@
 #include"estructurada.h"
 #include"repetitiva.h"
 #include"selectiva.h"
-int main() {
+void general() {
     int op;
     do{
         op=0;
@@ -68,5 +68,5 @@ int main() {
                 break;
         }
     } while (op!=3);
-    return 0;
+    //return 0;
 }
